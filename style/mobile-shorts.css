@@ -1,0 +1,118 @@
+/* -------------------------- */
+/* VIDEO BACKGROUND */
+/* -------------------------- */
+body {
+    padding: 0;
+}
+.mobile-shorts-header {
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    z-index: 999;
+
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+.total-container {
+    position: relative;
+}
+.bg-video-container {
+    width: 100%;
+    height: 89vh;
+    flex: 0 0 1;
+
+    position: relative;
+}
+.background-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    position: absolute;
+    inset: 0 0 0 0;
+}
+.mobile-shorts-video-info {
+    flex: 0 0 65px;
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.mobile-shorts-video-channet-info {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mobile-shorts-video-channet-info img {
+    border-radius: 50%;
+}
+.mobile-shorts-video-info button {
+    font-weight: 500;
+    background-color: white;
+    padding: 0.3em 1.2em;
+    border: none;
+    border-radius: 999px;
+
+}
+.right-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+}
+.right-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.right-icon i {
+    font-size: 20px;
+}
+.right-icon span {
+    font-size: 10px;
+}
+.right-icons-channel-icon {
+    height: 40px;
+    width: 40px;
+}
+.right-icons-channel-icon img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.bottom-bar {
+    background-color: black;
+}
+.bottom-bar i {
+    color: white;
+}
+.bottom-bar span {
+    color: white;
+}
+.mobile-footer-link:nth-child(3) i {
+    background-color: rgb(52, 52, 52);
+}
+/* VIDEO BACKGROUND ENDS HERE */

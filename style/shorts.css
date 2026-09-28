@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+}
+.shorts-grid {
+    height: 87vh;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* left side of the page */
+.shorts-video-data {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.shorts-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: whitesmoke;
+    padding: 0.4em 1em;
+    border-radius: 999px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.shorts-location img,
+.shorts-location span {
+    flex: 0 0 auto;
+}
+/* shorts channel info */
+.shorts-channel-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.shorts-channel-icon img {
+    width: 40px;
+    border-radius: 50%;
+}
+.subscribe-btn {
+    background-color: black;
+    color: white;
+    border-radius: 999px;
+    padding: 0.4em 1em;
+}
+.shorts-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+/* center part */
+/* center part video */
+.shorts {
+    display: flex;
+    gap: 10px;
+}
+.shorts-video {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    /* background-color: red; */
+}
+.shorts-video video {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shorts-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+}
+.shorts-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shorts-option img {
+    width: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 6px;
+}
+.shorts-option span {
+    font-size: 12px;
+}
+
+.shorts-center-icon img {
+    width: 40px;
+    border-radius: 5px;
+}
+/* ------------------------ 
+right side of the shorts page
+------------------------ */
+.down-arrow-btn-container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.down-arrow-btn {
+    
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .top-header {
+            padding: 20px;
+            background-color: navy;
+            color: blanchedalmond;
+            height: 70px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        #hb-menu {
+            display: none;
+        }
+
+        .active-close {
+            display: none;
+        }
+        @media (max-width:575px) {
+            .navbar {
+                /* display: none; */
+                width: 80%;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: -100%;
+                z-index: 999;
+                background-color: black;
+            }
+            .navbar ul {
+                display: block;
+                padding: 10px;
+            }
+            .navbar ul li {
+                padding: 10px;
+            }
+            .active-close {
+                display: block;
+            }
+            #hb-menu {
+                display: none;
+            }
+            #hb-menu:checked ~ .navbar,
+            #hb-menu:checked ~ .screen-tap-close {
+                right: 0;
+                translate: 0;
+            }
+            .screen-tap-close {
+                position: fixed;
+                inset: 0 0 0 0;
+                z-index: 998;
+                translate: -100%;
+            }
+            .active-close > svg {
+                fill: blanchedalmond;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top-header">
+        <h2 class="LOGO">LOGO</h2>
+
+        <input id="hb-menu" type="checkbox">
+        <label class="active-close" for="hb-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </label>
+        <label class="screen-tap-close" for="hb-menu"></label>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

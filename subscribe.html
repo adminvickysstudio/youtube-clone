@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscribe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="./style/general.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/video.css">
+    <link rel="stylesheet" href="./style/sidebar.css">
+    <link rel="stylesheet" href="./style/subscribe.css">
+
+</head>
+
+<body>
+    <!-- new header -->
+    <div class="header">
+        <div class="left-section">
+            <input id="hb-menu" class="hb-menu-checkbox" type="checkbox">
+            <label for="hb-menu">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            </label>
+            <label for="hb-menu" class="tap-screen-to-close"></label>
+            <div class="sidebar-slid-in-menu-container">
+                <div class="sidebar-slid-in-top">
+                    <label for="hb-menu">
+                        <img class="hamburger-menu" src="icons/close-btn.svg">
+                    </label>
+                    <img class="youtube-logo" src="icons/youtube-logo.svg">
+                </div>
+
+                <div class="slid-menu-nav-container">
+                    <nav class="slid-menu-nav slid-menu-nav-1">
+                        <li class="bold"><a href="#">
+                            <img src="./icons/home.svg" alt="home button">
+                            Home
+                        </a></li>
+                        <li class="bold"><a href="#">
+                            <i class="fa-brands fa-youtube-shorts"></i>
+                            Shorts
+                        </a></li>
+                    </nav>
+    
+                    <nav class="slid-menu-nav slid-menu-nav-2">
+                        <li class="bold"><a href="#">
+                            You
+                            <img src="./icons/right.svg" alt="">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/account-box.svg" alt="">
+                            Your channel
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/history.svg" alt="">
+                            History
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/playlist.svg" alt="">
+                            Playlist
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-regular fa-clock"></i>
+                            Watch history
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/thumbs-up.svg" alt="">
+                            Liked videos
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/your-videos.svg" alt="">
+                            Your videos
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/download.svg" alt="">
+                            Downloads
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/down.svg" alt="">
+                            Show more
+                        </a></li>
+                    </nav>
+    
+                    <nav class="slid-menu-nav slid-menu-nav-3">
+                        <li class="bold"><a href="#">
+                            Explore
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/shopping-bag.svg" alt="">
+                            Shopping
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/music.svg" alt="">
+                            Music
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/movies-and-tv.svg" alt="">
+                            Movies & TV
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/live-svgrepo-com.svg" alt="">
+                            Live
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/gaming.svg" alt="">
+                            Gaming
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/news.svg" alt="">
+                            News
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/trophy.svg" alt="">
+                            Sports
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/school.svg" alt="">
+                            Courses
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/fashion.svg" alt="">
+                            Fashion & Beauty
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/mic.svg" alt="">
+                            Podcasts
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/playable.svg" alt="">
+                            Playables
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/star.svg" alt="">
+                            Memberships
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./icons/up.svg" alt="">
+                            Show less
+                        </a></li>
+                    </nav>
+    
+                    
+                    <!-- slid menu nav container ends here -->
+                </div>
+            </div>
+
+
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-icon-container">
+                <img class="apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="tooltip">notifications</div>
+                <div class="notifications-count">3</div>
+            </div>
+            <div class="current-user-container">
+
+                <!-- this input feeld will add funtionality -->
+                <input class="activate-checkbox" id="current-user-pic" type="checkbox">
+                <label class="activate-check-pic" for="current-user-pic">
+                    <img class="current-user-icon" src="channel-pictures/my-channel.png">
+                </label>
+                <label for="current-user-pic" class="tap-screen-uncheck">
+                    <!-- add a feture to un check, tap the screen -->
+                </label>
+                <div class="current-user-options">
+                    <!-- the head of the option -->
+                    <div class="user-option-head">
+                        <img class="option-head-icon" src="./channel-pictures/my-channel.png" alt="user picture">
+
+                        <div class="user-option-data">
+                            <p class="option-user-name">Vicky.k</p>
+                            <p class="option-user-id">@vickys-studio</p>
+                            <p class="option-view-channel-link"><a href="#">View your channel</a></p>
+                        </div>
+                        <!-- user option head ends here -->
+                    </div>
+
+                    <!-- navigation of the options -->
+                    <div class="option-navigation">
+                        <nav class="user-option-navbar nav-section-1">
+                            
+                                <li><a href="#">
+                                    <i class="fa-brands fa-google"></i>
+                                    Google account
+                                </a></li>
+                                <li><a href="#">
+                                    <img src="./icons/switch-account.svg" alt="switch account">
+                                    Switch account
+                                </a></li>
+                                <li><a href="#">
+                                    <img src="./icons/sign-out.svg" alt="sign out">
+                                    Sign out
+                                </a></li>
+                            
+                        </nav>
+    
+                        <nav class="user-option-navbar nav-section-2">
+                            
+                                <li><a href="#">
+                                        <img src="./icons/youtube-studio-svgrepo-com.svg" alt="switch account">
+                                        YouTube studio
+                                </a></li>
+                                <li><a href="#">
+                                        <img src="./icons/youtube-purchases-membership.svg" alt="switch account">
+                                        Purchases and memberships
+                                </a></li>
+                            
+                        </nav>
+    
+                        <nav class="user-option-navbar nav-section-3">
+                            
+                                <li><a href="#">
+                                        <img src="./icons/your-data.svg" alt="switch account">
+                                        Your data in YouTube
+                                </a></li>
+                                <li><a href="#">
+                                        <img src="./icons/moon.svg" alt="switch account">
+                                        Appearance: Device theme
+                                </a></li>
+                                <li><a href="#">
+                                        <img src="./icons/language.svg" alt="switch account">
+                                        Display language: English 
+                                </a></li>
+                                <li><a href="#">
+                                        <img src="./icons/restricted.svg" alt="switch account">
+                                        Restricted mode: off
+                                </a></li>
+                                <li><a href="#">
+                                        <img src="./icons/location-india.svg" alt="switch account">
+                                        Location: India
+                                </a></li>
+                                <li><a href="#">
+                                        <img src="./icons/keyboard.svg" alt="switch account">
+                                        Keyboard shortcuts
+                                </a></li>
+                            
+                        </nav>
+    
+                        <nav class="user-option-navbar nav-section-4">
+                            
+                                <li><a href="#">
+                                    <img src="./icons/settings.svg" alt="switch account">
+                                    Settings
+                                </a></li>
+                            
+                        </nav>
+    
+                        <nav class="user-option-navbar nav-section-5">
+                            
+                                <li><a href="#">
+                                    <img src="./icons/help.svg" alt="switch account">
+                                    Help
+                                </a></li>
+                                <li><a href="#">
+                                    <img src="./icons/help.svg" alt="switch account">
+                                    Send feedback
+                                </a></li>
+                            
+                        </nav>
+                    </div>
+                </div>
+                <!-- current user container ends here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile header -->
+  <div class="mobile-header">
+    <img class="mobile-youtube-logo" src="./icons/youtube-logo.svg" alt="youtube logo">
+
+    <div class="mobile-head-right">
+
+      <div class="notifications-icon-container">
+          <i class="fa-regular fa-bell mobile-notification notifications-icon mobile-header-icons"></i>
+          <img class="notifications-icon lap-notification" src="icons/notifications.svg">
+          <div class="tooltip">notifications</div>
+          <div class="notifications-count">3</div>
+      </div>
+
+      <div class="mobile-head-search-icon">
+        <i class="fa-solid fa-magnifying-glass mobile-header-icons"></i>
+      </div>
+
+      <!-- right side of the mobile head containerends here -->
+    </div>
+
+    <!-- mobile header ends here -->
+  </div>
+
+
+    <div class="subscriped-channel-outer-container">
+        <!-- subscribed channels slide -->
+        <div class="subscriped-channel-container">
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-12.jpeg" alt="channel icon">
+                </div>
+                <span>TEDed</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-13.png" alt="channel icon">
+                </div>
+                <span>TEDx talks</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-14.png" alt="channel icon">
+                </div>
+                <span>Parithabangal</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-15.png" alt="channel icon">
+                </div>
+                <span>Empty hands</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-16.png" alt="channel icon">
+                </div>
+                <span>Music</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-17.png" alt="channel icon">
+                </div>
+                <span>freeCodeCamp</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-11.jpeg" alt="channel icon">
+                </div>
+                <span>Dst</span>
+            </div>
+    
+            <div class="mobile-channel">
+                <div class="subscriped-channel-icon-container">
+                    <img src="./channel-pictures/channel-10.jpeg" alt="channel icon">
+                </div>
+                <span>Business Insider</span>
+            </div>
+    
+            <div class="all">
+                <a href="#">All</a>
+            </div>
+        </div> <!--subscribed channels slie ends here-->
+    </div>
+
+    
+    <!-- top slider -->
+        <div class="mobile-slider slider-header-container">
+            
+            <div class="slider-item">All</div>
+            <div class="slider-item">Music</div>
+            <div class="slider-item">Softwear Engineering</div>
+            <div class="slider-item">Tamil Cinema</div>
+            <div class="slider-item">Computer Programming</div>
+            <div class="slider-item">Satire</div>
+            <div class="slider-item">Typing</div>
+            <div class="slider-item">Live</div>
+            <div class="slider-item">Recently uploaded</div>
+            <div class="slider-item">Watched</div>
+            <div class="slider-item">Sports</div>
+            <div class="slider-item">News</div>
+            <div class="slider-item">Javascript</div>
+            <div class="slider-item">Website</div>
+            <div class="slider-item">Full stack</div>
+        </div>
+    <!-- top slider ends here -->
+
+
+    <!-- new sidebar -->
+    <div class="sidebar">
+        <a href="./index.html" class="sidebar-link-tag">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+        </a>
+        <a href="./explore.html" class="sidebar-link-tag">
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+        </a>
+        <a href="./subscribe.html" class="sidebar-link-tag">
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+        </a>
+        <a href="./shorts.html" class="sidebar-link-tag">
+            <div class="sidebar-link">
+                <img src="icons/shorts.svg">
+                <div>Shorts</div>
+            </div>
+        </a>
+        <a href="./music.html" class="sidebar-link-tag">
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+        </a>
+        <a href="./library.html" class="sidebar-link-tag">
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </a>
+    </div>
+
+    <!-- mobile bottom bar -->
+    <div class="bottom-bar">
+
+
+      <a href="./index.html" class="mobile-footer-link">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+
+      <a href="./mobile-shorts.html" class="mobile-footer-link">
+        <i class="fa-brands fa-youtube-shorts"></i>
+        <span>Shorts</span>
+      </a>
+
+      <a href="#" class="mobile-footer-link">
+        <i class="fa-solid fa-plus plus-icon"></i>
+      </a>
+
+      <a href="./subscribe.html" class="mobile-footer-link">
+        <i class="fa-brands fa-square-youtube"></i>
+        <span>Subscriptions</span>
+      </a>
+
+      <a href="./library.html" class="mobile-footer-link">
+        <div class="footer-channel-icon-container">
+          <img class="footer-channel-icon" src="./channel-pictures/my-channel.png" alt="user picture">
+        </div>
+        <span>You</span>
+      </a>
+
+
+    </div>
+    <!-- mobile bottom bar ends here -->
+
+
+    <!-- mobile shorts container for mobile view -->
+    <div class="shorts-mobile-view-container">
+
+
+          <!-- shorts section -->
+          <div class="shorts-head">
+              <div class="shorts-left">
+                  <img src="./icons/Youtube_shorts_icon.png" alt="shorts icon" class="shorts-icon">
+                  <p class="shorts">Shorts</p>
+              </div>
+      
+              <p class="view-all">
+                  <a href="#">View all</a>
+              </p>
+      
+              <!-- three dots in the mobile view -->
+                <div class="three-dots">
+                <img src="./icons/three-dots.svg" alt="three dots">
+            </div>
+      
+          </div>
+      
+          <!-- shorts grid -->
+          <div class="shorts-grid">
+      
+      
+              <a href="https://www.youtube.com/shorts/2xbFwfTt5-U" class="shorts-link">
+                  <div class="shorts-thumbnail">
+                      <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-6.png" alt="shorts thumbnail"
+                          class="shorts-thumbnail-img">
+                      <div class="mobile-shorts-title">
+                        Namba moonja paathaa mattum yen erinji viluraan🥲
+                      </div>
+                  </div>
+      
+                  <div class="shorts-video-info">
+                      <p class="shorts-video-title">
+                          Namba moonja paathaa mattum yen erinji viluraan🥲
+                      </p>
+                      <p class="shorts-video-stats">
+                          25M views
+                      </p>
+                  </div>
+              </a>
+      
+              <a href="https://www.youtube.com/shorts/k_Cy-j7dXUg" class="shorts-link">
+                  <div class="shorts-thumbnail">
+                      <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-3.png" alt="shorts thumbnail"
+                          class="shorts-thumbnail-img">
+                      <div class="mobile-shorts-title">
+                        Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                      </div>
+                  </div>
+      
+                  <div class="shorts-video-info">
+                      <p class="shorts-video-title">
+                          Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                      </p>
+                      <p class="shorts-video-stats">
+                          10k views
+                      </p>
+                  </div>
+              </a>
+      
+          </div>
+          <!-- shorts ends here -->
+
+
+    </div> <!-- mobile shorts container ends here -->
+    
+
+    <!-- video slid head -->
+    <div class="subscribe-title-head">
+        <p class="subscribe-title">Latest</p>
+        <button class="all-subscriptions-btn">All Subscriptions</button>
+    </div>
+
+    <div class="video-grid">
+
+        <a class="video-link" href="https://youtu.be/faghznXPU_Q?si=5H3K87rR3YzBkoaC">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="./thumbnails/thumbnail-19.png">
+                    <div class="video-time">
+                        5:24
+                    </div>
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">
+                        Sakkarai Nilave - Lyric Video | Youth | Vijay | Mani Sharma | Harigh Raghavendra | Vairamuthu
+                    </p>
+                    <p class="video-author">
+                        SonyMusicSouthVEVO
+                    </p>
+                    <p class="video-stats">
+                        8.9K views &#183; 1 day ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/9kImWuSY_V4?si=2AOXI0Q0cn8jZS9Z">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-15.png">
+                    <div class="video-time">
+                        28:03
+                    </div>
+                </div>
+
+
+
+                <div class="video-info">
+                    <p class="video-title">
+                        Magudam Movie Roast | WARNING | Vishal | Anjali | Tamil Troll
+                    </p>
+                    <p class="video-author">
+                        Empty Hands
+                    </p>
+                    <p class="video-stats">
+                        130k views &#183; 5 hours ago
+                    </p>
+                </div>
+
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/v9QtM6qnG50?si=AlRLP2Kq4myGs0bp">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-18.png">
+                    <div class="video-time">
+                        19:03
+                    </div>
+                </div>
+
+
+
+                <div class="video-info">
+                    <p class="video-title">
+                        I Build A City to Save Kids From Illegal Labor
+                    </p>
+                    <p class="video-author">
+                        MrBeast
+                    </p>
+                    <p class="video-stats">
+                        27M views &#183; 18 hours ago
+                    </p>
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+    <!-- most relevant -->
+    <div class="subscribe-title-head">
+        <p class="subscribe-title">Most Relavant</p>
+    </div>
+
+    <div class="video-grid">
+
+        <a class="video-link" href="https://youtu.be/nOpuu4ROouQ?si=54w-WNIu9-oDbJD1">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="./thumbnails/thumbnail-20.png">
+                    <div class="video-time">
+                        11:24
+                    </div>
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">
+                        Vadakkan Sothanaigal 2 | Micset
+                    </p>
+                    <p class="video-author">
+                        Mic Set
+                    </p>
+                    <p class="video-stats">
+                        1.8M views &#183; 7 day ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/9kImWuSY_V4?si=2AOXI0Q0cn8jZS9Z">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-21.png">
+                    <div class="video-time">
+                        19:29
+                    </div>
+                </div>
+
+
+
+                <div class="video-info">
+                    <p class="video-title">
+                        Ultaa Couple 💕 Episode - 03 | Pratheesh, Divya Gowri | Tamil Fantasy Rom Com
+                    </p>
+                    <p class="video-author">
+                        Finally
+                    </p>
+                    <p class="video-stats">
+                        1M views &#183; 8 days ago
+                    </p>
+                </div>
+
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/v9QtM6qnG50?si=AlRLP2Kq4myGs0bp">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-22.png">
+                    <div class="video-time">
+                        38:16
+                    </div>
+                </div>
+
+
+
+                <div class="video-info">
+                    <p class="video-title">
+                        We Played Hide & Seek in the Middle of a Red Desert!
+                    </p>
+                    <p class="video-author">
+                        Mad Brothers
+                    </p>
+                    <p class="video-stats">
+                        278K views &#183; 1 day ago
+                    </p>
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+
+    <!-- mobile shorts container for mobile view -->
+    <div class="shorts-mobile-view-container">
+
+
+          <!-- shorts section -->
+          <div class="shorts-head">
+              <div class="shorts-left">
+                  <img src="./icons/Youtube_shorts_icon.png" alt="shorts icon" class="shorts-icon">
+                  <p class="shorts">Shorts</p>
+              </div>
+      
+              <p class="view-all">
+                  <a href="#">View all</a>
+              </p>
+      
+              <!-- three dots in the mobile view -->
+                <div class="three-dots">
+                <img src="./icons/three-dots.svg" alt="three dots">
+            </div>
+      
+          </div>
+      
+          <!-- shorts grid -->
+          <div class="shorts-grid">
+      
+      
+              <a href="https://www.youtube.com/shorts/2xbFwfTt5-U" class="shorts-link">
+                  <div class="shorts-thumbnail">
+                      <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-6.png" alt="shorts thumbnail"
+                          class="shorts-thumbnail-img">
+                      <div class="mobile-shorts-title">
+                        Namba moonja paathaa mattum yen erinji viluraan🥲
+                      </div>
+                  </div>
+      
+                  <div class="shorts-video-info">
+                      <p class="shorts-video-title">
+                          Namba moonja paathaa mattum yen erinji viluraan🥲
+                      </p>
+                      <p class="shorts-video-stats">
+                          25M views
+                      </p>
+                  </div>
+              </a>
+      
+              <a href="https://www.youtube.com/shorts/fah0e9RI_6E" class="shorts-link">
+                  <div class="shorts-thumbnail">
+                      <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-2.png" alt="shorts thumbnail"
+                          class="shorts-thumbnail-img">
+                      <div class="mobile-shorts-title">
+                        Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                      </div>
+                  </div>
+      
+                  <div class="shorts-video-info">
+                      <p class="shorts-video-title">
+                          Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                      </p>
+                      <p class="shorts-video-stats">
+                          10k views
+                      </p>
+                  </div>
+              </a>
+      
+              <a href="https://www.youtube.com/shorts/k_Cy-j7dXUg" class="shorts-link">
+                  <div class="shorts-thumbnail">
+                      <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-3.png" alt="shorts thumbnail"
+                          class="shorts-thumbnail-img">
+                      <div class="mobile-shorts-title">
+                        Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                      </div>
+                  </div>
+      
+                  <div class="shorts-video-info">
+                      <p class="shorts-video-title">
+                          Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                      </p>
+                      <p class="shorts-video-stats">
+                          10k views
+                      </p>
+                  </div>
+              </a>
+      
+              <a href="https://www.youtube.com/shorts/Ky__6J02rkk" class="shorts-link">
+                  <div class="shorts-thumbnail">
+                      <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-4.png" alt="shorts thumbnail"
+                          class="shorts-thumbnail-img">
+                      <div class="mobile-shorts-title">
+                        English purinji irukku but... speaking la hesitation ah...
+                      </div>
+                  </div>
+      
+                  <div class="shorts-video-info">
+                      <p class="shorts-video-title">
+                          English purinji irukku but... speaking la hesitation ah...
+                      </p>
+                      <p class="shorts-video-stats">
+                          7.8k views
+                      </p>
+                  </div>
+              </a>
+      
+          </div>
+          <!-- shorts ends here -->
+
+
+    </div> <!-- mobile shorts container ends here -->
+
+
+    <!-- laptop shorts container -->
+    <div class="laptop-shorts-container">
+        <!-- shorts section -->
+        <div class="shorts-head">
+            <div class="shorts-left">
+                <img src="./icons/Youtube_shorts_icon.png" alt="shorts icon" class="shorts-icon">
+                <p class="shorts">Shorts</p>
+            </div>
+    
+            <p class="view-all">
+                <a href="#">View all</a>
+            </p>
+    
+        </div>
+    
+        <!-- shorts grid -->
+        <div class="shorts-grid">
+    
+            <a href="https://www.youtube.com/shorts/LxLUKju1G8A" class="shorts-link">
+                <div class="shorts-thumbnail">
+                    <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-1.png" alt="shorts thumbnail"
+                        class="shorts-thumbnail-img">
+                </div>
+    
+                <div class="shorts-video-info">
+                    <p class="shorts-video-title">
+                        Naan Andha Pennai Thappa Paakkala😭
+                    </p>
+                    <p class="video-stats">
+                        11k views
+                    </p>
+                </div>
+            </a>
+    
+            <a href="https://www.youtube.com/shorts/fah0e9RI_6E" class="shorts-link">
+                <div class="shorts-thumbnail">
+                    <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-2.png" alt="shorts thumbnail"
+                        class="shorts-thumbnail-img">
+                </div>
+    
+                <div class="shorts-video-info">
+                    <p class="shorts-video-title">
+                        Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                    </p>
+                    <p class="video-stats">
+                        10k views
+                    </p>
+                </div>
+            </a>
+    
+            <a href="https://www.youtube.com/shorts/k_Cy-j7dXUg" class="shorts-link">
+                <div class="shorts-thumbnail">
+                    <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-3.png" alt="shorts thumbnail"
+                        class="shorts-thumbnail-img">
+                </div>
+    
+                <div class="shorts-video-info">
+                    <p class="shorts-video-title">
+                        Aiyo! Dream la thuppure nu nanaichi nejama thuppite😂
+                    </p>
+                    <p class="video-stats">
+                        10k views
+                    </p>
+                </div>
+            </a>
+    
+            <a href="https://www.youtube.com/shorts/Ky__6J02rkk" class="shorts-link">
+                <div class="shorts-thumbnail">
+                    <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-4.png" alt="shorts thumbnail"
+                        class="shorts-thumbnail-img">
+                </div>
+    
+                <div class="shorts-video-info">
+                    <p class="shorts-video-title">
+                        English purinji irukku but... speaking la hesitation ah...
+                    </p>
+                    <p class="video-stats">
+                        7.8k views
+                    </p>
+                </div>
+            </a>
+    
+            <a href="https://www.youtube.com/shorts/qKphS2DnrWc" class="shorts-link">
+                <div class="shorts-thumbnail">
+                    <img src="./thumbnails/shorts-thumbnail/shorts-thumbnail-5.png" alt="shorts thumbnail"
+                        class="shorts-thumbnail-img">
+                </div>
+    
+                <div class="shorts-video-info">
+                    <p class="shorts-video-title">
+                        Epdi da ivlo talented ah irukke😂
+                    </p>
+                    <p class="video-stats">
+                        13k views
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div> <!--laptop shorts container ends here-->
+    
+
+    <!-- show more button -->
+    <div class="show-more-btn-container">
+        <button class="show-more">
+            Show more
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
+    </div>
+
+    <!-- sample videos -->
+    <div class="video-grid">
+
+        <a class="video-link" href="https://youtu.be/5MgBikgcWnY?si=7jqe-2Dsxd7B-aLx">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-13.png">
+                    <div class="video-time">
+                        19:27
+                    </div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-13.png">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            The first 20 hours - how to learn anything | Josh Kaufman
+                        </p>
+                        <p class="video-author">
+                            TEDx Talks
+                        </p>
+                        <p class="video-stats">
+                            43M views &#183; 13 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/gmuTjeQUbTM?si=BU3fC6z7qEszNW2m">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-17.png">
+                    <div class="video-time">
+                        24:29:16
+                    </div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-17.png">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            Harvard CS50 (2026) - Full Computer Science University Course
+                        </p>
+                        <p class="video-author">
+                            freeCodeCamp.org
+                        </p>
+                        <p class="video-stats">
+                            1.2M views &#183; 7 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/9kImWuSY_V4?si=2AOXI0Q0cn8jZS9Z">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-15.png">
+                    <div class="video-time">
+                        28:03
+                    </div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-15.png">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            Magudam Movie Roast | WARNING | Vishal | Anjali | Tamil Troll
+                        </p>
+                        <p class="video-author">
+                            Empty Hands
+                        </p>
+                        <p class="video-stats">
+                            130k views &#183; 5 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/liuOceaNTgg?si=Nk8HfRKmwMUks66p">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-16.png">
+                    <div class="video-time">
+                        6:54
+                    </div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-16.png">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            Loosu Penne | 4K Video Song | Vallavan | Silambarasan | Nayanthara | Yuvan Shankar Raja
+                        </p>
+                        <p class="video-author">
+                            Ayngaran Music
+                        </p>
+                        <p class="video-stats">
+                            21M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/2ssMP5FHeZE?si=1wNU-EoXZOKYnGmc">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-14.png">
+                    <div class="video-time">
+                        15:22
+                    </div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-14.png">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            ThaTha Patti Paavangal | Parithabangal
+                        </p>
+                        <p class="video-author">
+                            Parithabangal
+                        </p>
+                        <p class="video-stats">
+                            2.7M views &#183; 2 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://youtu.be/v9QtM6qnG50?si=AlRLP2Kq4myGs0bp">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-18.png">
+                    <div class="video-time">
+                        19:03
+                    </div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            I Build A City to Save Kids From Illegal Labor
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-stats">
+                            27M views &#183; 18 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</body>
+
+</html>
